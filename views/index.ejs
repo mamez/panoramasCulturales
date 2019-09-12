@@ -34,6 +34,45 @@
 }
 		</script>
 		<style>
+
+
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
 			.imgRedonda {
                 width:300px;
                height:300px;
@@ -56,7 +95,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 4px 11px;
   transition: 0.3s;
 }
 
@@ -91,7 +130,7 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>PANORAMAS CULTURALES</h1>
+								<h1>rastros muiscas</h1>
 								<p>En esta parte colocamos una frace que identifique a empresa</p>
 							</div>
 						</div>
@@ -114,7 +153,7 @@
 								<h2 class="major">Quienes somos</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 								<ul>
- <li type="square"> <span class="titleLi"> Misión: </span> Somos una agencia operadora de turismo que diseña y comercializa paquetes de calidad e innovación mediante plataformas virtuales, de este modo promocionar nuestras actividades turísticas en las redes sociales.</li>
+ <li type="square"> <span class="titleLi"> Misión: </span> Somos una agencia operadora de turismo que diseña y comercializa paquetes de calidad e innovación mediante plataformas virtuales, de este modo promocionamos nuestras actividades turísticas a través de las redes sociales.</li>
 
 <li type="square"> <span class="titleLi"> Visión: </span> Para el 2024 ser reconocidos a nivel departamental por los servicios, elevando el número de visitas en los diferentes atractivos turísticos.</li>
 </ul>
@@ -136,7 +175,24 @@
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">Paquetes</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<span class="image main">
+										<div class="slider">
+												<ul>
+													<li>
+									  <img src="images/img1.jpg" alt="">
+									 </li>
+													<li>
+									  <img src="images/img2.jpg" alt="">
+									</li>
+													<li>
+									  <img src="images/img3.jpg" alt="">
+									</li>
+													<li>
+									  <img src="images/img4.jpg" alt="">
+									</li>
+												</ul>
+											</div>
+								</span>
 								<!-- Tab links -->
 <div class="tab">
   <button  style="color: #2d2b2b !important;" class="tablinks" onclick="openCity(event, 'London')">Parque la poma </button>
@@ -205,7 +261,7 @@
 			</tr>
 			<tr>
 				<td>7:30 pm</td>
-				<td>Llegada a las oficinas administrativas "Panoramas Culturales" </td>
+				<td>Llegada el parque timiza </td>
 			</tr>
 		</tbody>
 	</table>
@@ -271,7 +327,7 @@
 				</tr>
 				<tr>
 					<td>7:30 pm</td>
-					<td>Llegada a las oficinas administrativas  </td>
+					<td>Llegada el parque timiza  </td>
 				</tr>
 			</tbody>
 		</table>
@@ -337,7 +393,7 @@
 				</tr>
 				<tr>
 					<td>7:30 pm</td>
-					<td>Llegada a las oficinas administrativas  </td>
+					<td>Llegada el parque timiza   </td>
 				</tr>
 			</tbody>
 		</table>
